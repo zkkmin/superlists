@@ -25,7 +25,7 @@ eg, on Ubuntu:
 
 ## Folder structure
 Assume we have a user account at /home/username
-
+```
 /home/username
 |__ sites
 	|__ SITENAME
@@ -33,5 +33,5 @@ Assume we have a user account at /home/username
 		|__ source
 		|__ static
 		|__ virtualenv
-
+```
 
