@@ -9,9 +9,11 @@ Provisioning a new site
 * pip
 * virtualenv
 
-eg, on Ubuntu:
-	sudo apt-get install nginx git python3 python3-pip
-	sudo pip3 isntall virtualenv
+eg, on Ubuntu:   
+```
+	sudo apt-get install nginx git python3 python3-pip   
+	sudo pip3 isntall virtualenv   
+```
 
 ## Nginx Viratual Host config
 
