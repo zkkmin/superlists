@@ -5,6 +5,10 @@ from django import forms
 from lists.models import Item
 
 class ItemForm(forms.models.ModelForm):
+    
+    def save(self, for_list):
+        self.instance.list = for_list
+        return super().save()
    
     class Meta:
         model = Item
